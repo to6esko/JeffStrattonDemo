@@ -1,0 +1,679 @@
+
+
+
+
+
+html,body{
+    margin: 0;
+    padding:0;
+    
+}
+
+body{
+    font-family: brandon-grotesque,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    -webkit-tap-highlight-color: transparent;
+}
+.noScroll{
+    overflow: hidden;
+}
+
+/*SlideShow*/
+
+.slideShow span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity:0;
+    z-index: 1;
+    -webkit-animation: imageAnimation 6s linear infinite 0s;
+    -moz-animation: imageAnimation 6s linear infinite 0s;
+    -o-animation: imageAnimation 6s linear infinite 0s;
+    -ms-animation: imageAnimation 6s linear infinite 0s;
+    
+    animation: imageAnimation 6s linear infinite 0s;
+    
+}
+
+
+@keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+        animation-timing-function: ease-in;
+	}
+	
+	25% {
+	     opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
+	}
+    50% {
+	     opacity: 1;
+	    transform: scale(1.05);
+	}
+     75% {
+	     opacity: 0;
+	    transform: scale(1.05);
+	}
+	100% { opacity: 0 }
+}
+
+.no-cssanimations .cb-slideshow span{
+	opacity: 1;
+}
+.slideShow::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    background: transparent url(../../modelPages/back2.jpg) repeat top left;
+}
+
+
+/*Navigation*/
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+}
+.container {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    line-height: 25px;
+    font-size: 1.5em;
+    padding-top: 50px;
+    /*color: #ccc394;*/
+    color: #fff; 
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+    
+}
+.containerLeault{
+    position: relative;
+    left: 0px;
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+    margin-top: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    color: #fff; 
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.home_title{
+   position: absolute;
+   margin-left: 20px;
+   font-size:1.5em;
+   width: 100%;
+}
+.home_title::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
+
+.container_links{
+    width: 100%;
+    position: relative;
+    margin-left: 55px;
+    line-height: 45px;
+}
+.violins{
+    position: relative;
+    margin-top:150px;
+    padding-left: 100px;
+    width: 100%;
+}
+.violins_content{
+    line-height: 50px;
+}
+
+/*links decoration*/
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    /*color: #ccc394;*/
+    color: #fff;
+    cursor:pointer;
+}
+a:hover{
+    color: #0040ff
+}
+
+/*Violins Gypsy*/
+.gypsyHome{
+   position: relative;
+    left: 50px;
+    width: 100%;
+    z-index: 1;
+    padding-top: 50px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+
+.gypsyContent{
+    position: relative;
+    left: 50px;
+    width: 40%;
+    text-align: left;
+    z-index: 1;
+    margin-top: 200px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.gypsyContent h2{
+   position: relative;
+   margin-left: 20px;
+   font-size:1.5em;;
+}
+.gypsyHome h1::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
+.gypsy{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+/*Violins Kiril Petrov*/
+.kikiHome{
+   position: relative;
+    left: 50px;
+    width: 100%;
+    z-index: 1;
+    padding-top: 50px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.kikiContent{
+    position: relative;
+    left: 50px;
+    width: 40%;
+    text-align: left;
+    z-index: 1;
+    margin-top: 200px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.kikiContent h2{
+   position: relative;
+   margin-left: 20px;
+   font-size:1.5em;
+}
+.kikiHome h1::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
+.kikiPetrov{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+
+/*Violins Robert Kantor*/
+.kantorHome{
+   position: relative;
+    left: 50px;
+    width: 100%;
+    z-index: 1;
+    padding-top: 50px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+
+.kantorContent{
+    position: relative;
+    left: 50px;
+    width: 40%;
+    text-align: left;
+    z-index: 1;
+    margin-top: 200px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.kantorContent h2{
+   position: relative;
+   margin-left: 20px;
+   font-size:1.5em;
+}
+.kantorHome h1::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
+.kantor{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+
+/*Violins semi custom*/
+.semiHome{
+   position: relative;
+    left: 50px;
+    width: 100%;
+    z-index: 1;
+    padding-top: 50px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+
+.semiContent{
+    position: relative;
+    left: 50px;
+    width: 40%;
+    text-align: left;
+    z-index: 1;
+    margin-top: 200px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.semiContent h2{
+   position: relative;
+   margin-left: 20px;
+   font-size:1.5em;
+}
+.semiHome h1::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
+.semi{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat:repeat;
+    z-index: 1;
+}
+
+
+/*Violins standard*/
+.standardHome{
+   position: relative;
+    left: 50px;
+    width: 100%;
+    z-index: 1;
+    padding-top: 50px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+
+.standardContent{
+    position: relative;
+    left: 50px;
+    width: 40%;
+    text-align: left;
+    z-index: 1;
+    margin-top: 200px;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.standardContent h2{
+   position: relative;
+   margin-left: 20px;
+   font-size:1.5em;
+}
+.standardHome h1::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
+.standard{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+/*Gallery*/
+.galleryHome{
+   position: absolute;
+    left: 50px;
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+    padding-top: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    color: #fff; 
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.galleryHome h2{
+   position: absolute;
+   margin-left: 20px;
+   margin-top:140px;
+   font-size:1.5em;
+}
+.galleryHome h1::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
+.gallery{
+    width: 99%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+/*Contact*/
+.contactHome{
+    position: relative;
+    left:0;
+    text-align:left;
+    width: 100%;
+    z-index: 1;
+    padding-top: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5em;
+    line-height: 25px;
+    /* color: #ccc394; */
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+
+.contactHome h1::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
+.contact{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+/*For Sale*/
+.forSaleHome{
+   position: absolute;
+    left: 50px;
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+    padding-top: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    color: #fff; 
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.forSaleHome h2{
+   position: absolute;
+   margin-left: 20px;
+   margin-top:140px;
+   font-size:1.5em;
+}
+.forSaleHome h1::first-letter{
+   font-family: Vivaldi;
+   font-size:1.5em;
+}
+.forSale{
+    width: 99%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+
+/*Gallery - For Sale*/
+.section-inner{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    z-index:1;
+    overflow: auto;
+}
+.gallery-clearfix{
+    clear: both;
+}
+.galleryImages{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin-top: 200px;
+    -webkit-font-smoothing: antialiased;
+    /*color: #ccc394;*/
+    color: #fff; 
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+    padding-bottom: 50px;
+    float: left;
+}
+
+.galleryImages img{
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+    width:100%;
+}
+.galleryImages p {
+   color: white;  
+   letter-spacing: 0;  
+   padding: 10px 10px 0 10px;
+   word-wrap: word-break;
+   width:100%;
+}
+
+.image-one{
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    padding: 10px 20px 0 10px;
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+    margin: 40px; 
+}
+.image-two{
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    padding: 10px 20px 0 10px;
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+    margin: 40px; 
+}
+
+.image-three{
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    padding: 10px 20px 0 10px;
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+    margin: 40px;  
+}
+
+.image-four{
+    display: inline-block;    
+    position: relative;
+    width: 25%;
+    padding: 10px 20px 0 10px;
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+    margin: 40px; 
+}
+
+.image-five{
+    display: inline-block;    
+    position: relative;
+    width: 25%;
+    padding: 10px 20px 0 10px;
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+    margin: 40px; 
+}
+
+
+/*Contact*/
+
+.leaultContact{
+    position: relative;
+    left: 0px;
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+    margin-top: 50px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    color: #fff; 
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+   margin-left: 0;
+   margin-top:0;
+   width: 30%;
+}
+
+.contactList{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+        margin-top: -5%;
+    z-index: 1;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.5em;
+    line-height: 25px;
+    /*color: #ccc394;*/
+    color: #fff; 
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
+}
+.contacts{
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    padding-right: 35px;
+    border-right: 3px solid #ccc394;
+}
+.contacts p{
+    margin-top: 38px;
+    text-align: left;
+    font-size: 1em;
+    line-height: 10px;
+    text-shadow: 0 1px 2px #222;
+}
+.social{
+    text-align:left;
+    position: relative;
+    display: inline-block;
+    margin-left: 65px;
+}
+
+.socialInstagram{
+    background:transparent left no-repeat;
+    padding: 0 0 0 40px;
+}  
+.socialFaceBook{
+    background:transparent left no-repeat;
+    padding: 0 0 0 40px;
+}
+.socialPinterest{
+    background:transparent left no-repeat;
+    padding: 0 0 0 40px;
+}
