@@ -28,7 +28,7 @@
 .vegas-timer-progress {
     width: 0%;
     height: 100%;
-    background: white;
+    /*background: white;*/
     -webkit-transition: width ease-out;
     transition: width ease-out;
 }
@@ -59,7 +59,7 @@ body .vegas-container {
 }
 
 body.vegas-container {
-    overflow: auto;
+    overflow: hidden;
     position: static;
     z-index: -2;
 }
@@ -312,10 +312,12 @@ _::full-page-media, _:future,
 }
 
 /*******************************************/
-/* zoomIn transition */
+/* zoomIn transition + blurIn*/
 /*******************************************/
 .vegas-transition-zoomIn,
 .vegas-transition-zoomIn2 {
+    -webkit-filter: blur(32px);
+            filter: blur(32px);
     -webkit-transform: scale(0);
             transform: scale(0);
     opacity: 0;
@@ -323,10 +325,13 @@ _::full-page-media, _:future,
 
 .vegas-transition-zoomIn-in,
 .vegas-transition-zoomIn2-in {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
 }
+
 
 .vegas-transition-zoomIn2-out {
     -webkit-transform: scale(2);
