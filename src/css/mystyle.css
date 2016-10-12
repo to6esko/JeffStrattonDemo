@@ -115,10 +115,6 @@ h1, h2, h3, h4, h5, h6,p,a {
    font-size:1.5em;
    width: 100%;
 }
-.home_title::first-letter{
-   font-family: Vivaldi;
-   font-size:1.5em;
-}
 
 .container_links{
     width: 100%;
@@ -182,10 +178,7 @@ a:hover{
    margin-left: 20px;
    font-size:1.5em;;
 }
-.gypsyHome h1::first-letter{
-   font-family: Vivaldi;
-   font-size:1.5em;
-}
+
 .gypsy{
     width: 100%;
     height: 100%;
@@ -229,10 +222,7 @@ a:hover{
    margin-left: 20px;
    font-size:1.5em;
 }
-.kikiHome h1::first-letter{
-   font-family: Vivaldi;
-   font-size:1.5em;
-}
+
 .kikiPetrov{
     width: 100%;
     height: 100%;
@@ -278,10 +268,7 @@ a:hover{
    margin-left: 20px;
    font-size:1.5em;
 }
-.kantorHome h1::first-letter{
-   font-family: Vivaldi;
-   font-size:1.5em;
-}
+
 .kantor{
     width: 100%;
     height: 100%;
@@ -327,10 +314,7 @@ a:hover{
    margin-left: 20px;
    font-size:1.5em;
 }
-.semiHome h1::first-letter{
-   font-family: Vivaldi;
-   font-size:1.5em;
-}
+
 .semi{
     width: 100%;
     height: 100%;
@@ -376,10 +360,7 @@ a:hover{
    margin-left: 20px;
    font-size:1.5em;
 }
-.standardHome h1::first-letter{
-   font-family: Vivaldi;
-   font-size:1.5em;
-}
+
 .standard{
     width: 100%;
     height: 100%;
@@ -414,10 +395,7 @@ a:hover{
    margin-top:140px;
    font-size:1.5em;
 }
-.galleryHome h1::first-letter{
-   font-family: Vivaldi;
-   font-size:1.5em;
-}
+
 .gallery{
     width: 99%;
     height: 100%;
@@ -448,10 +426,7 @@ a:hover{
     text-shadow: 0 1px 2px #222;
 }
 
-.contactHome h1::first-letter{
-   font-family: Vivaldi;
-   font-size:1.5em;
-}
+
 .contact{
     width: 100%;
     height: 100%;
@@ -487,10 +462,7 @@ a:hover{
    margin-top:140px;
    font-size:1.5em;
 }
-.forSaleHome h1::first-letter{
-   font-family: Vivaldi;
-   font-size:1.5em;
-}
+
 .forSale{
     width: 99%;
     height: 100%;
