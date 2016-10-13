@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
 }
 h1, h2, h3, h4, h5, h6,p,a {
-    font-family: serif;
+    font-family: monospace;
 }
 
 .container {
@@ -98,10 +98,10 @@ h1, h2, h3, h4, h5, h6,p,a {
     position: relative;
     width: 100%;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 15%;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
-    font-size: 1.5em;
+    font-size: 2em;
     /*color: #ccc394;*/
     color: #fff; 
     font-weight: 400;
@@ -318,7 +318,7 @@ a:hover{
     position: absolute;
     top: 0px;
     left: 0px;
-    background-size: cover;
+    background-size: contain;
     background-position: 50% 50%;
     background-repeat:repeat;
     z-index: 1;
@@ -390,7 +390,7 @@ a:hover{
 }
 
 .gallery{
-    width: 99%;
+    width: 99.3%;
     height: 100%;
     position: fixed;
     top: 0px;
@@ -452,7 +452,7 @@ a:hover{
 }
 
 .forSale{
-    width: 99%;
+    width: 99.3%;
     height: 100%;
     position: fixed;
     top: 0px;
@@ -465,7 +465,7 @@ a:hover{
 }
 
 
-/*Gallery - For Sale*/
+/*Gallery - For Sale : img*/
 .section-inner{
     position: absolute;
     top:0;
@@ -482,7 +482,7 @@ a:hover{
     position: absolute;
     z-index: 1;
     width: 100%;
-    margin-top: 17%;
+    margin: 230px 5% 0 5%;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
     color: #fff; 
@@ -500,16 +500,16 @@ a:hover{
 .galleryImages p {
    color: white;  
    letter-spacing: 0;  
-   padding: 10px 0 0 10px;
+   padding: 0 0 0 10px;
    word-wrap: break-word;
-   width:90%;
+   font-size: 1.2em;
 }
 
 .image-one{
     display: inline-block;
     position: relative;
-    width: 15%;
-    padding: 10px 10px 0 10px;
+    width: 235px;
+    padding: 10px 18px 0 10px;
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
@@ -519,8 +519,8 @@ a:hover{
 .image-two{
     display: inline-block;
     position: relative;
-    width: 15%;
-    padding: 10px 10px 0 10px;
+    width: 235px;
+    padding: 10px 18px 0 10px;
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
@@ -531,8 +531,20 @@ a:hover{
 .image-three{
     display: inline-block;
     position: relative;
-    width: 15%;
-    padding: 10px 10px 0 10px;
+    width: 235px;
+    padding: 10px 18px 0 10px;
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+    margin: 40px;   
+}
+
+.image-four{
+    display: inline-block;
+    position: relative;
+    width: 235px;
+    padding: 10px 18px 0 10px;
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
@@ -540,28 +552,16 @@ a:hover{
     margin: 40px;  
 }
 
-.image-four{
-    display: inline-block;    
-    position: relative;
-    width: 15%;
-    padding: 10px 10px 0 10px;
-    border-width:5px;	
-    border-style:double;
-    border-radius: 5px;
-    border-color:black;
-    margin: 40px; 
-}
-
 .image-five{
-    display: inline-block;    
+    display: inline-block;
     position: relative;
-    width: 15%;
-    padding: 10px 10px 0 10px;
+    width: 235px;
+    padding: 10px 18px 0 10px;
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
     border-color:black;
-    margin: 40px; 
+    margin: 40px;  
 }
 
 
@@ -573,7 +573,7 @@ a:hover{
     padding-left: 10%;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
-    font-size: 1.5em;
+    font-size: 2em;
     /*color: #ccc394;*/
     color: #fff; 
     font-weight: 400;
@@ -588,7 +588,7 @@ a:hover{
         margin-top: 10%;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 10px;
     /*color: #ccc394;*/
     color: #fff; 
@@ -605,7 +605,6 @@ a:hover{
 .contacts p{
     margin-top: 20px;
     text-align: left;
-    font-size: 1em;
     text-shadow: 0 1px 2px #222;
 }
 .social{
