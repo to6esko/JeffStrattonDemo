@@ -80,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
 }
 h1, h2, h3, h4, h5, h6,p,a {
+    text-transform: uppercase;
     font-family: Adobe Kaiti Std R;
 }
 
@@ -131,6 +132,7 @@ h1, h2, h3, h4, h5, h6,p,a {
 }
 .violins_content{
     line-height: 30px;
+    font-size: 20px;
 }
 
 /*links decoration*/
