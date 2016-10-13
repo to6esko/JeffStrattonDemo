@@ -4,7 +4,7 @@ html,body{
 }
 
 body{
-    font-family: brandon-grotesque,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-family: brandon-grotesque,Adobe Kaiti Std R,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
     color: #fff;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
 }
 h1, h2, h3, h4, h5, h6,p,a {
-    font-family: monospace;
+    font-family: Adobe Kaiti Std R;
 }
 
 .container {
@@ -98,10 +98,10 @@ h1, h2, h3, h4, h5, h6,p,a {
     position: relative;
     width: 100%;
     text-align: left;
-    padding-left: 15%;
+    padding-left: 7%;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
-    font-size: 2em;
+    font-size: 1.5em;
     /*color: #ccc394;*/
     color: #fff; 
     font-weight: 400;
@@ -627,10 +627,10 @@ a:hover{
 .leaultContact{
     position: relative;
     text-align: left;
-    padding-left: 10%;
+    padding-left: 7%;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
-    font-size: 2em;
+    font-size: 1.5em;
     /*color: #ccc394;*/
     color: #fff; 
     font-weight: 400;
@@ -645,7 +645,7 @@ a:hover{
     margin-top: 10%;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 10px;
     /*color: #ccc394;*/
     color: #fff; 
