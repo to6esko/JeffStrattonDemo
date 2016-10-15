@@ -110,6 +110,7 @@ p{
     text-indent: 20%;
     word-spacing: 3px;
     letter-spacing: 1px;
+    line-height: 6px;
 }
 .text p{
     font-size: 17px;
