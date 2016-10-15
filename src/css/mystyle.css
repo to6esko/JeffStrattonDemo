@@ -81,13 +81,11 @@ h1, h2, h3, h4, h5, h6,p,a {
     clear: both;
 }
  h2, h3, h4, h5, h6,a {
-    text-transform: uppercase;
     font-family: Adobe Kaiti Std R;
 }
 h1{
     text-transform: none;
     font-family: Adobe Kaiti Std R;
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     font-weight: 500;
     font-size: 3em;
 }
@@ -96,6 +94,34 @@ h3{
     font-size: 27px;
     font-weight: 100;
     letter-spacing: -2px;
+}
+p{
+    font-family: Adobe Kaiti Std R;
+}
+.name{
+    text-indent: 10%;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.text{
+    text-indent: 20%;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.text p{
+    font-size: 17px;
+}
+.price1{
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.price{
+    text-indent: 10%;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 30px;
 }
 
 .container {
@@ -116,6 +142,7 @@ h3{
     padding-top:20px;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
     /*color: #ccc394;*/
     color: #fff; 
     text-shadow: 0 1px 2px #222;
@@ -162,10 +189,10 @@ a{
     cursor:pointer;
 }
 a :hover{
-    color: #0040ff;
+    color: #008CBA;
 }
 a:hover{
-    color: #0040ff;
+    color: #008CBA;
 }
 /*Violins Gypsy*/
 .gypsyHome{
@@ -366,6 +393,7 @@ a:hover{
     text-align: left;
     z-index: 1;
     /* color: #ccc394; */
+    color: white; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
@@ -373,15 +401,7 @@ a:hover{
     position: relative;
     margin-left: 5%;
 }
-.semiContent p {
-   color: white;  
-   letter-spacing: 0;  
-   padding: 0 0 0 10px;
-   word-wrap: break-word;
-    text-align: left;
-    font-size: 17px;
-    text-shadow: 0 1px 2px #222;
-}
+
 .semi{
     width: 100%;
     height: 100%;
@@ -475,6 +495,7 @@ a:hover{
     z-index: 1;
     letter-spacing: -2px;
     -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
     /* color: #ccc394; */
     color: #fff;
     text-shadow: 0 1px 2px #222;
@@ -532,6 +553,7 @@ a:hover{
    z-index: 1;
    letter-spacing: -2px;
    -webkit-font-smoothing: antialiased;
+   text-transform: uppercase;
    /*color: #ccc394;*/
    color: #fff;
    text-shadow: 0 1px 2px #222;
@@ -588,16 +610,9 @@ a:hover{
     border-radius: 5px;
     border-color:black;
 }
-.galleryImages p {
-   color: white;  
-   letter-spacing: 0;  
-   padding: 0 0 0 10px;
-   word-wrap: break-word;
-    text-align: left;
-    font-size: 17px;
-    text-shadow: 0 1px 2px #222;
+.galleryName{
+    text-align: center;
 }
-
 .image-one{
     display: inline-block;
     position: relative;
@@ -669,6 +684,7 @@ a:hover{
     padding-top: 20px;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
     /* color: #ccc394; */
     color: #fff;
     text-shadow: 0 1px 2px #222;
@@ -694,11 +710,13 @@ a:hover{
     padding-right: 35px;
     border-right: 1px solid #ccc394;
 }
-
+.contacts h3{
+    text-transform: uppercase;
+}
 .contacts p{
     margin-top: 23px;
     text-align: left;
-    font-size: 17px;
+    font-size: 20px;
     text-shadow: 0 1px 2px #222;
 }
 .social{
@@ -707,7 +725,12 @@ a:hover{
     display: inline-block;
     margin-left: 90px;
 }
-
+.social h3{
+    text-transform: uppercase;
+}
+.social p a{
+    font-size: 20px;
+}
 .socialInstagram{
     background:transparent left no-repeat;
     padding: 0 0 0 40px;
@@ -731,4 +754,7 @@ a:hover{
     display: inline-block;
     padding-right: 35px;
     border-bottom: 1px solid #ccc394;
+}
+.links h3{
+    text-transform: uppercase;
 }
