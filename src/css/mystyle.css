@@ -9,7 +9,7 @@ body{
     font-family: brandon-grotesque,Adobe Kaiti Std R,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
-    color: #fff;
+    color: #d9d9d9;
     -webkit-tap-highlight-color: transparent;
     font-size: 1.5em;
 }
@@ -137,7 +137,7 @@ p{
     width: 100%;
     z-index: 1;
     /*color: #ccc394;*/
-    color: #fff; 
+    color: #d9d9d9; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
     
@@ -152,7 +152,7 @@ p{
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
     /*color: #ccc394;*/
-    color: #fff; 
+    color: #d9d9d9; 
     text-shadow: 0 1px 2px #222;
 }
 .home_title{
@@ -165,7 +165,7 @@ p{
    letter-spacing: -2px;
    -webkit-font-smoothing: antialiased;
    /*color: #ccc394;*/
-   color: #fff;
+    color: #d9d9d9; 
    text-shadow: 0 1px 2px #222;
 }
 
@@ -193,7 +193,7 @@ li{
 a{
     text-decoration: none;
     /*color: #ccc394;*/
-    color: #fff;
+    color: #d9d9d9;
     cursor:pointer;
 }
 a :hover{
@@ -210,7 +210,7 @@ a:hover{
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
-    color: #fff; 
+    color: #d9d9d9; 
     text-shadow: 0 1px 2px #222;
 }
 
@@ -221,7 +221,7 @@ a:hover{
     text-align: left;
     z-index: 1;
     /* color: #ccc394; */
-    color: white; 
+    color: #d9d9d9; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
@@ -237,7 +237,7 @@ a:hover{
     left: 0px;
     background: #000;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 80% 20%;
     background-repeat:repeat;
     z-index: 1;
 }
@@ -261,7 +261,7 @@ a:hover{
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
-    color: #fff; 
+    color: #d9d9d9; 
     text-shadow: 0 1px 2px #222;
 }
 .kikiContent{
@@ -271,7 +271,7 @@ a:hover{
     text-align: left;
     z-index: 1;
     /* color: #ccc394; */
-    color: white; 
+    color: #d9d9d9; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
@@ -287,7 +287,7 @@ a:hover{
     left: 0px;
     background: #000;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 80% 20%;
     background-repeat:repeat;
     z-index: 1;
 }
@@ -311,7 +311,7 @@ a:hover{
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
-    color: #fff; 
+    color: #d9d9d9; 
     text-shadow: 0 1px 2px #222;
 }
 
@@ -322,7 +322,7 @@ a:hover{
     text-align: left;
     z-index: 1;
     /* color: #ccc394; */
-    color: white; 
+    color: #d9d9d9; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
@@ -338,7 +338,7 @@ a:hover{
     left: 0px;
     background: #000;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 80% 20%;
     background-repeat:repeat;
     z-index: 1;
 }
@@ -362,7 +362,7 @@ a:hover{
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
-    color: #fff; 
+    color: #d9d9d9; 
     text-shadow: 0 1px 2px #222;
 }
 
@@ -373,7 +373,7 @@ a:hover{
     text-align: left;
     z-index: 1;
     /* color: #ccc394; */
-    color: white; 
+    color: #d9d9d9; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
@@ -389,7 +389,7 @@ a:hover{
     left: 0px;
     background: #000;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 80% 20%;
     background-repeat:repeat;
     z-index: 1;
 }
@@ -413,7 +413,7 @@ a:hover{
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
-    color: #fff; 
+    color: #d9d9d9; 
     text-shadow: 0 1px 2px #222;
 }
 
@@ -424,7 +424,7 @@ a:hover{
     text-align: left;
     z-index: 1;
     /* color: #ccc394; */
-    color: white; 
+    color: #d9d9d9; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
@@ -440,7 +440,7 @@ a:hover{
     left: 0px;
     background: #000;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 80% 20%;
     background-repeat:repeat;
     z-index: 1;
 }
@@ -466,7 +466,7 @@ a:hover{
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
     /* color: #ccc394; */
-    color: #fff;
+    color: #d9d9d9;
     text-shadow: 0 1px 2px #222;
 }
 .galleryHome h3{
@@ -497,7 +497,7 @@ a:hover{
    letter-spacing: -2px;
    -webkit-font-smoothing: antialiased;
    /*color: #ccc394;*/
-   color: #fff;
+   color: #d9d9d9;
    text-shadow: 0 1px 2px #222;
 }
 
@@ -524,7 +524,7 @@ a:hover{
    -webkit-font-smoothing: antialiased;
    text-transform: uppercase;
    /*color: #ccc394;*/
-   color: #fff;
+   color: #d9d9d9;
    text-shadow: 0 1px 2px #222;
 }
 .forSaleHome h3{
@@ -567,7 +567,7 @@ a:hover{
     margin: 230px 5% 0 5%;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
-    color: #fff; 
+    color: #d9d9d9; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
     float: left;
@@ -654,7 +654,7 @@ a:hover{
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
     /* color: #ccc394; */
-    color: #fff;
+    color: #d9d9d9;
     text-shadow: 0 1px 2px #222;
 }
 
@@ -667,17 +667,16 @@ a:hover{
     -webkit-font-smoothing: antialiased;
     line-height: 10px;
     /*color: #ccc394;*/
-    color: #fff; 
+    color: #d9d9d9;
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
 .contacts{
     text-align: left;
-    position: absolute;
-    margin-left: 25%;
+    position: relative;
+    margin-left: 33%;
     margin-top: -495px;
     padding-right: 35px;
-    border-right: 1px solid #ccc394;
 }
 .contacts h3{
     text-transform: uppercase;
@@ -691,10 +690,9 @@ a:hover{
 .social{
     text-align: left;
     position: absolute;
-    margin-top: -295px;
-    margin-left: 25%;
+    margin-top: 45px;
+    margin-left: 33%;
     padding-right: 182px;
-    border-right: 1px solid #ccc394;
 }
 .social h3{
     text-transform: uppercase;
@@ -717,12 +715,17 @@ a:hover{
     padding: 0 0 0 40px;
     font-size: 17px;
 }
-
+.socialYoutube{
+    background:transparent left no-repeat;
+    padding: 0 0 0 40px;
+    font-size: 17px;
+}
 .links{
     bottom: 430px;
     position: relative;
     display: inline-block;
     padding-right: 35px;
+    margin-left: 15%;
 }
 .links h3{
     text-transform: uppercase;
