@@ -93,18 +93,22 @@ h1{
 }
 h3{
     width: 100%;
-    font-size: 27px;
+    font-size: 1.1em;
     font-weight: 100;
     letter-spacing: -2px;
 }
 p{
     font-family: Adobe Kaiti Std R;
 }
+
+img{
+    max-width: 100%;
+}
 .name{
     text-indent: 10%;
     word-spacing: 3px;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 0.8em;
 }
 .text{
     text-indent: 20%;
@@ -113,23 +117,23 @@ p{
     line-height: 6px;
 }
 .text p{
-    font-size: 17px;
+    font-size: 0.7em;
 }
 .price{
     line-height: 10px;
     letter-spacing: 1px;
-    font-size: 30px;
+    font-size: 1.3em;
 }
 .price1{
     line-height: 10px;
     letter-spacing: 1px;
-    font-size: 30px;
+    font-size: 1.3em;
     text-indent: 10%;
     word-spacing: 3px;
 }
 .price2{
     letter-spacing: 1px;
-    font-size: 30px;
+    font-size: 1.3em;
 }
 
 .container {
@@ -181,7 +185,7 @@ p{
 
 .violins_content{
     line-height: 30px;
-    font-size: 17px;
+    font-size: 0.7em;
     margin-top: -25px;
     letter-spacing: -1px;
 }
@@ -287,7 +291,7 @@ a:hover{
     left: 0px;
     background: #000;
     background-size: cover;
-    background-position: 80% 20%;
+    background-position: 50% 50%;
     background-repeat:repeat;
     z-index: 1;
 }
@@ -640,7 +644,6 @@ a:hover{
     margin: 40px;  
 }
 
-
 /*Contact*/
 
 .leaultContact{
@@ -684,7 +687,7 @@ a:hover{
 .contacts p{
     margin-top: 23px;
     text-align: left;
-    font-size: 20px;
+    font-size: 0.8em;
     text-shadow: 0 1px 2px #222;
 }
 .social{
@@ -698,27 +701,23 @@ a:hover{
     text-transform: uppercase;
 }
 .social p a{
-    font-size: 20px;
+    font-size: 0.8em;
 }
 .socialInstagram{
     background:transparent left no-repeat;
     padding: 0 0 0 40px;
-    font-size: 17px;
 }  
 .socialFaceBook{
     background:transparent left no-repeat;
     padding: 0 0 0 40px;
-    font-size: 17px;
 }
 .socialPinterest{
     background:transparent left no-repeat;
     padding: 0 0 0 40px;
-    font-size: 17px;
 }
 .socialYoutube{
     background:transparent left no-repeat;
     padding: 0 0 0 40px;
-    font-size: 17px;
 }
 .links{
     bottom: 430px;
