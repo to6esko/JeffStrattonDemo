@@ -735,6 +735,7 @@ a:hover{
 }
 .dealers p{
     margin-top:-14px;
+    text-align: center;
 }
 .dealers p a{
     font-size: 0.8em;
