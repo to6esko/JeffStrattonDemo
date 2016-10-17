@@ -661,10 +661,10 @@ a:hover{
 }
 .contacts{
     text-align: left;
+    display: inline;
     position: absolute;
     line-height: 5px;
-    margin-left: 33%;
-    margin-top: -10%;
+    margin-left: -17%;
 }
 .contacts h3{
     text-transform: uppercase;
@@ -672,6 +672,7 @@ a:hover{
 .contacts p{
     text-align: left;
     font-size: 0.8em;
+    padding-top: 9px;
     text-shadow: 0 1px 2px #222;
 }
 .social{
@@ -679,7 +680,7 @@ a:hover{
     position: absolute;
     margin-top: 4%;
     margin-left: 33%;
-    line-height: 5px;
+    line-height: 8px;
 }
 .social h3{
     text-transform: uppercase;
@@ -704,10 +705,11 @@ a:hover{
     padding: 0 0 0 40px;
 }
 .links{
+    display: inline-block;
     position: absolute;
     padding-right: 35px;
     margin-top: -14%;
-    margin-left: 60%;
+    margin-left: 5%;
     text-align: left;
 }
 .links h3{
@@ -721,10 +723,11 @@ a:hover{
     text-decoration: underline;
 }
 .dealers{
+    display: inline-block;
     position: absolute;
     padding-right: 35px;
-    margin-top: 4%;
-    margin-left: 60%;
+    margin-top: -14%;
+    margin-left: 25%;
     text-align: left;
 }
 .dealers h3{
@@ -770,7 +773,7 @@ h3{
     margin-top: 13%;
 }
 .contacts{
-    margin-top: -13%;
+    margin-top: -13.2%;
 }
 }
 
