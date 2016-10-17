@@ -661,7 +661,7 @@ a:hover{
 }
 .contacts{
     text-align: left;
-    position: relative;
+    position: absolute;
     line-height: 5px;
     margin-left: 33%;
     margin-top: -10%;
@@ -705,15 +705,38 @@ a:hover{
 }
 .links{
     position: absolute;
-    display: inline-block;
     padding-right: 35px;
-    margin-top: -10%;
-    margin-left: 5%;
+    margin-top: -14%;
+    margin-left: 60%;
+    text-align: left;
 }
 .links h3{
     text-transform: uppercase;
 }
-
+.links p{
+    margin-top:-14px;
+}
+.links p a{
+    font-size: 0.8em;
+    text-decoration: underline;
+}
+.dealers{
+    position: absolute;
+    padding-right: 35px;
+    margin-top: 4%;
+    margin-left: 60%;
+    text-align: left;
+}
+.dealers h3{
+    text-transform: uppercase;
+}
+.dealers p{
+    margin-top:-14px;
+}
+.dealers p a{
+    font-size: 0.8em;
+    text-decoration: underline;
+}
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
 
 @media screen and (min-width: 1024px){
@@ -747,7 +770,7 @@ h3{
     margin-top: 13%;
 }
 .contacts{
-    margin-top: -11%;
+    margin-top: -13%;
 }
 }
 
