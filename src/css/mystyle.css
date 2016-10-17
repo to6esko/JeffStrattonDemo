@@ -89,11 +89,11 @@ h1{
     text-transform: none;
     font-family: Adobe Kaiti Std R;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 2.9em;
 }
 h3{
     width: 100%;
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 100;
 }
 p{
@@ -106,24 +106,24 @@ img{
 .name{
     text-indent: 10%;
     word-spacing: 3px;
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
 .text{
     text-indent: 20%;
     word-spacing: 3px;
     line-height: 6px;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 .text p{
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 .price{
     line-height: 10px;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 .price1{
     line-height: 10px;
-    font-size: 1em;
+    font-size: 1.2em;
     text-indent: 50px;
     word-spacing: 3px;
 }
@@ -177,7 +177,7 @@ img{
 
 .violins_content{
     line-height: 25px;
-    font-size: 0.4em;
+    font-size: 0.5em;
     margin-top: -10px;
 }
 
