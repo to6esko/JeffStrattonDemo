@@ -127,7 +127,10 @@ img{
     text-indent: 50px;
     word-spacing: 3px;
 }
-
+.price2{
+    display: -webkit-inline-box;
+    font-size: 1.3em;
+}
 
 .container {
     position: relative;
@@ -144,7 +147,7 @@ img{
     width: 100%;
     text-align: left;
     padding-left: 70px;
-    margin-top: 5%;
+    margin-top: 70px;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
@@ -166,7 +169,6 @@ img{
 }
 
 .container_links{
-    width: 100%;
     position:absolute;
     margin-left: -35px;
     margin-top:-15px;
@@ -224,26 +226,15 @@ a:hover{
    margin-left: 5%;
 }
 
-.gypsy{
+
+.gypsyBack{
     width: 100%;
     height: 100%;
     position: fixed;
     top: 0px;
     left: 0px;
-    background: #000;
     background-size: cover;
-    background-position: 80% 20%;
-    background-repeat:repeat;
-    z-index: 1;
-}
-.gypsyBack{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-size: cover;
-    background-position: 50% 50%;
+    background-position: center;
     background-repeat:no-repeat;
     z-index: 1;
 }
@@ -274,26 +265,14 @@ a:hover{
    margin-left: 5%;
 }
 
-.kikiPetrov{
+.kikiBack{
     width: 100%;
     height: 100%;
     position: fixed;
     top: 0px;
     left: 0px;
-    background: #000;
     background-size: cover;
-    background-position: 50% 50%;
-    background-repeat:repeat;
-    z-index: 1;
-}
-.kikiBack{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-size: cover;
-    background-position: 50% 50%;
+    background-position: center;
     background-repeat:no-repeat;
     z-index: 1;
 }
@@ -325,26 +304,15 @@ a:hover{
    margin-left: 5%;
 }
 
-.kantor{
+
+.kantorBack{
     width: 100%;
     height: 100%;
     position: fixed;
     top: 0px;
     left: 0px;
-    background: #000;
     background-size: cover;
-    background-position: 80% 20%;
-    background-repeat:repeat;
-    z-index: 1;
-}
-.kantorBack{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-size: cover;
-    background-position: 50% 50%;
+    background-position: center;
     background-repeat:no-repeat;
     z-index: 1;
 }
@@ -375,27 +343,16 @@ a:hover{
 .semiContent h3{
     margin-left: 5%;
 }
-.semi{
+
+
+.semiBack{
     width: 100%;
     height: 100%;
     position: fixed;
     top: 0px;
     left: 0px;
-    background: #000;
-    background-size: cover;
-    background-position: 80% 20%;
-    background-repeat:repeat;
-    z-index: 1;
-}
-
-.semiBack{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-size: cover;
-    background-position: 50% 50%;
+    background-size:cover;
+    background-position: center;
     background-repeat:no-repeat;
     z-index: 1;
 }
@@ -427,26 +384,14 @@ a:hover{
     margin-left: 5%;
 }
 
-.standard{
+.standardBack{
     width: 100%;
     height: 100%;
     position: fixed;
     top: 0px;
     left: 0px;
-    background: #000;
     background-size: cover;
-    background-position: 80% 20%;
-    background-repeat:repeat;
-    z-index: 1;
-}
-.standardBack{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-size: cover;
-    background-position: 50% 50%;
+    background-position: center;
     background-repeat:no-repeat;
     z-index: 1;
 }
@@ -466,7 +411,7 @@ a:hover{
 .galleryHome h3{
    position: relative;
    margin-left: 9%;
-   margin-top: -2%;
+   margin-top: -20px;
 }
 
 .gallery{
@@ -556,7 +501,7 @@ a:hover{
     position: absolute;
     z-index: 1;
     width: 100%;
-    margin: 12% 5% 0 5%;
+    margin: 180px 5% 0 5%;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
     color: #d9d9d9; 
@@ -639,7 +584,7 @@ a:hover{
     width: 100%;
     text-align: left;
     padding-left: 70px;
-    margin-top: 10%;
+    margin-top: 200px;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
@@ -661,10 +606,11 @@ a:hover{
 }
 .contacts{
     text-align: left;
-    display: inline;
+    display: inline-block;
     position: absolute;
     line-height: 5px;
     margin-left: -17%;
+    margin-top: -193px;
 }
 .contacts h3{
     text-transform: uppercase;
@@ -678,9 +624,9 @@ a:hover{
 .social{
     text-align: left;
     position: absolute;
-    margin-top: 4%;
+    margin-top: 40px;
     margin-left: 33%;
-    line-height: 8px;
+    line-height: 10px;
 }
 .social h3{
     text-transform: uppercase;
@@ -708,7 +654,7 @@ a:hover{
     display: inline-block;
     position: absolute;
     padding-right: 35px;
-    margin-top: -14%;
+    margin-top: -205px;
     margin-left: 5%;
     text-align: left;
 }
@@ -726,7 +672,7 @@ a:hover{
     display: inline-block;
     position: absolute;
     padding-right: 35px;
-    margin-top: -14%;
+    margin-top: -205px;
     margin-left: 25%;
     text-align: left;
 }
@@ -767,14 +713,129 @@ h3{
 .price1{
     font-size: 1.3em;
 }
+
 .violins_content{
     font-size: 0.6em;
 }
-.leaultContact{
-    margin-top: 13%;
-}
-.contacts{
-    margin-top: -13.2%;
-}
 }
 
+
+
+@media only screen and (max-width : 992px) {
+    .links{
+        margin-left: 15%;
+    }
+.dealers{
+    display: block;
+    margin-top: 31px;
+    margin-left: 65%;
+}
+
+    }
+
+/* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    .price2{
+        display: block;
+    }
+    .contactList{
+        display: block;
+        margin-left: 15%;
+    }
+    .contact{
+        display: block;
+    }
+    .social{
+        display: block;
+        margin-top: 20px;
+    }
+    .links{
+        display: block;
+        margin-left: 33%;
+        margin-top: 195px;
+    }
+    .dealers{
+        display: block;
+        margin-left: -5%;
+        margin-top: 195px;
+    }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+  h1{
+      display: table-caption;
+          text-align: center;
+  }
+  h3{
+      display: initial;
+  }
+  .containerLeault{
+      margin-top: 0;
+  }
+  .leaultContact{
+      margin-top: 245px;
+  }
+  .violins_content{
+      margin-top: 0;
+  }
+  .semiContent{
+      width:95%;
+      left: 0;
+      text-align: center;
+  }
+  .standardContent{
+      width:95%;
+      left: 0;
+      text-align: center;
+  }
+  .gypsyContent{
+      width:95%;
+      left: 0;
+      text-align: center;
+  }
+  .kikiContent{
+      width:95%;
+      left: 0;
+      text-align: center;
+  }
+  .kantorContent{
+      width:95%;
+      left: 0;
+      text-align: center;
+  }
+  .galleryImages{
+      margin-top: 290px;
+  }
+  .contacts{
+      margin-top: 140px;
+      margin-left: -50%;
+  }
+  .social{
+      margin-left: 0;
+      margin-top: 380px;
+  }
+  .links{
+      margin-left: 0;
+      margin-top: 580px;
+  }
+  .links p{
+      margin-top: 15px;
+    line-height: 10px;
+  }
+  .dealers{
+      margin-left: 0;
+      margin-top: 830px;
+  }
+  .dealers p{
+      margin-top: 15px;
+    line-height: 10px;
+  }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        .galleryImages{
+            margin-left: 0;
+        }
+    }
