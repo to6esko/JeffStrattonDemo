@@ -593,6 +593,18 @@ a:hover{
     border-color:black;
     margin: 40px;  
 }
+.image-seven{
+    display: inline-block;
+    position: relative;
+    width: 235px;
+    height: auto;
+    padding: 10px 20px 5px 10px;
+    border-width:5px;	
+    border-style:double;
+    border-radius: 5px;
+    border-color:black;
+    margin: 40px;  
+}
 
 /*Contact*/
 
