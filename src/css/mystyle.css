@@ -522,6 +522,7 @@ a:hover{
     display: inline-block;
     position: relative;
     width: 235px;
+    height: auto;
     padding: 10px 15px 5px 10px;
     border-width:5px;	
     border-style:double;
@@ -533,6 +534,7 @@ a:hover{
     display: inline-block;
     position: relative;
     width: 235px;
+    height: 350px;
     padding: 10px 15px 5px 10px;
     border-width:5px;	
     border-style:double;
@@ -545,6 +547,7 @@ a:hover{
     display: inline-block;
     position: relative;
     width: 235px;
+    height: auto;
     padding: 10px 15px 5px 10px;
     border-width:5px;	
     border-style:double;
@@ -557,6 +560,7 @@ a:hover{
     display: inline-block;
     position: relative;
     width: 235px;
+    height: auto;
     padding: 10px 15px 5px 10px;
     border-width:5px;	
     border-style:double;
@@ -569,6 +573,7 @@ a:hover{
     display: inline-block;
     position: relative;
     width: 235px;
+    height: auto;
     padding: 10px 15px 5px 10px;
     border-width:5px;	
     border-style:double;
