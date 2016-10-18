@@ -614,7 +614,6 @@ a:hover{
 }
 .contacts h3{
     text-transform: uppercase;
-    text-decoration: underline;
 }
 .contacts p{
     text-align: left;
@@ -631,7 +630,6 @@ a:hover{
 }
 .social h3{
     text-transform: uppercase;
-    text-decoration: underline;
 }
 .social p a{
     font-size: 0.8em;
@@ -662,7 +660,6 @@ a:hover{
 }
 .links h3{
     text-transform: uppercase;
-    text-decoration: underline;
 }
 .links p{
     margin-top:-14px;
@@ -680,7 +677,6 @@ a:hover{
 }
 .dealers h3{
     text-transform: uppercase;
-    text-decoration: underline;
 }
 .dealers p{
     margin-top:-14px;
