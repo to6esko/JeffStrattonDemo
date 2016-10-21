@@ -47,7 +47,7 @@
 }
 
 body .vegas-container {
-    overflow: hidden !important;
+    overflow: hidden;
     position: relative;
 }
 
@@ -59,7 +59,6 @@ body .vegas-container {
 }
 
 body.vegas-container {
-    overflow: hidden;
     position: static;
     z-index: -2;
 }

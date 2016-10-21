@@ -12,11 +12,9 @@ body{
     color: #d9d9d9;
     -webkit-tap-highlight-color: transparent;
     font-size: 1.5em;
+    overflow: auto;
 }
 
-.noScroll{
-    overflow: hidden;
-}
 
 /*SlideShow*/
 
@@ -35,9 +33,7 @@ body{
     -moz-animation: imageAnimation 6s linear infinite 0s;
     -o-animation: imageAnimation 6s linear infinite 0s;
     -ms-animation: imageAnimation 6s linear infinite 0s;
-    
     animation: imageAnimation 6s linear infinite 0s;
-    
 }
 
 
@@ -131,9 +127,11 @@ img{
     display: -webkit-inline-box;
     font-size: 1.3em;
 }
-
+.section-inner{
+    overflow: hidden;
+}
 .container {
-    position: relative;
+    position: fixed;
     width: 100%;
     z-index: 1;
     /*color: #ccc394;*/
@@ -143,11 +141,11 @@ img{
     
 }
 .containerLeault{
-    position: relative;
+    position: fixed;
     width: 100%;
     text-align: left;
     padding-left: 70px;
-    margin-top: 70px;
+    margin-top:165px;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
@@ -199,8 +197,8 @@ a :hover{
 a:hover{
     color: #008CBA;
 }
-/*Violins Gypsy*/
-.gypsyHome{
+/*Violins models*/
+.modelHome{
     position: relative;
     width: 100%;
     text-align: left;
@@ -211,7 +209,7 @@ a:hover{
     text-shadow: 0 1px 2px #222;
 }
 
-.gypsyContent{
+.content{
     position: relative;
     left: 5%;
     width: 50%;
@@ -222,12 +220,11 @@ a:hover{
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
 }
-.gypsyContent h3{
+.content h3{
    margin-left: 5%;
 }
 
-
-.gypsyBack{
+.back{
     width: 100%;
     height: 100%;
     position: fixed;
@@ -239,162 +236,6 @@ a:hover{
     z-index: 1;
 }
 
-/*Violins Kiril Petrov*/
-.kikiHome{
-    position: relative;
-    width: 100%;
-    text-align: left;
-    z-index: 1;
-    -webkit-font-smoothing: antialiased;
-    /*color: #ccc394;*/
-    color: #d9d9d9; 
-    text-shadow: 0 1px 2px #222;
-}
-.kikiContent{
-    position: relative;
-    left: 5%;
-    width: 50%;
-    text-align: left;
-    z-index: 1;
-    /* color: #ccc394; */
-    color: #d9d9d9; 
-    font-weight: 400;
-    text-shadow: 0 1px 2px #222;
-}
-.kikiContent h3{
-   margin-left: 5%;
-}
-
-.kikiBack{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-    z-index: 1;
-}
-
-/*Violins Robert Kantor*/
-.kantorHome{
-    position: relative;
-    width: 100%;
-    text-align: left;
-    z-index: 1;
-    -webkit-font-smoothing: antialiased;
-    /*color: #ccc394;*/
-    color: #d9d9d9; 
-    text-shadow: 0 1px 2px #222;
-}
-
-.kantorContent{
-    position: relative;
-    left: 5%;
-    width: 50%;
-    text-align: left;
-    z-index: 1;
-    /* color: #ccc394; */
-    color: #d9d9d9; 
-    font-weight: 400;
-    text-shadow: 0 1px 2px #222;
-}
-.kantorContent h3{
-   margin-left: 5%;
-}
-
-
-.kantorBack{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-    z-index: 1;
-}
-
-/*Violins semi custom*/
-.semiHome{
-    position: relative;
-    width: 100%;
-    text-align: left;
-    z-index: 1;
-    -webkit-font-smoothing: antialiased;
-    /*color: #ccc394;*/
-    color: #d9d9d9; 
-    text-shadow: 0 1px 2px #222;
-}
-
-.semiContent{
-    position: relative;
-    left: 5%;
-    width: 50%;
-    text-align: left;
-    z-index: 1;
-    /* color: #ccc394; */
-    color: #d9d9d9; 
-    font-weight: 400;
-    text-shadow: 0 1px 2px #222;
-}
-.semiContent h3{
-    margin-left: 5%;
-}
-
-
-.semiBack{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    background-size:cover;
-    background-position: center;
-    background-repeat:no-repeat;
-    z-index: 1;
-}
-
-/*Violins standard*/
-.standardHome{
-    position: relative;
-    width: 100%;
-    text-align: left;
-    z-index: 1;
-    -webkit-font-smoothing: antialiased;
-    /*color: #ccc394;*/
-    color: #d9d9d9; 
-    text-shadow: 0 1px 2px #222;
-}
-
-.standardContent{
-    position: relative;
-    left: 5%;
-    width: 50%;
-    text-align: left;
-    z-index: 1;
-    /* color: #ccc394; */
-    color: #d9d9d9; 
-    font-weight: 400;
-    text-shadow: 0 1px 2px #222;
-}
-.standardContent h3{
-    margin-left: 5%;
-}
-
-.standardBack{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-    z-index: 1;
-}
 
 /*Gallery*/
 .galleryHome{
@@ -415,7 +256,7 @@ a:hover{
 }
 
 .gallery{
-    width: 99.3%;
+    width: 100%;
     height: 100%;
     position: fixed;
     top: 0px;
@@ -429,16 +270,27 @@ a:hover{
 
 /*Contact*/
 .contactHome{
-   position: absolute;
-   text-align: left;
-   width: 100%;
-   z-index: 1;
-   -webkit-font-smoothing: antialiased;
-   /*color: #ccc394;*/
-   color: #d9d9d9;
-   text-shadow: 0 1px 2px #222;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    /* color: #ccc394; */
+    color: #d9d9d9;
+    font-weight: 400;
+    text-shadow: 0 1px 2px #222;
 }
-
+.contacktLeault{
+position: fixed;
+    width: 100%;
+    text-align: left;
+    padding-left: 70px;
+    margin-top: -15px;
+    z-index: 1;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    /*color: #ccc394;*/
+    color: #d9d9d9; 
+    text-shadow: 0 1px 2px #222;
+}
 .contact{
     width: 100%;
     height: 100%;
@@ -452,52 +304,8 @@ a:hover{
     z-index: 1;
 }
 
-/*For Sale*/
-.forSaleHome{
-    position: absolute;
-   text-align: left;
-   width: 100%;
-   z-index: 1;
-   -webkit-font-smoothing: antialiased;
-   text-transform: uppercase;
-   /*color: #ccc394;*/
-   color: #d9d9d9;
-   text-shadow: 0 1px 2px #222;
-}
-.forSaleHome h3{
-   position: relative;
-   margin-left: 9%;
-   margin-top: -2%;
-}
-
-.forSale{
-    width: 99.3%;
-    height: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    background-attachment:fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 1;
-}
-
-
-/*Gallery - For Sale : img*/
-.section-inner{
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left:0;
-    right: 0;
-    z-index:1;
-    overflow: auto;
-}
-.gallery-clearfix{
-    clear: both;
-}
 .galleryImages{
+    display: -webkit-inline-box;
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -516,110 +324,21 @@ a:hover{
     border-radius: 5px;
     border-color:black;
 }
+.gallery-content{
+    overflow-y: auto;
+}
 
-
-.image-one{
+.image{
     display: inline-block;
     position: relative;
     width: 235px;
-    height: auto;
+    height: 475px;
     padding: 10px 20px 5px 10px;
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
     border-color:black;
     margin: 40px; 
-}
-.image-two{
-    display: inline-block;
-    position: relative;
-    width: 235px;
-    height: auto;
-    padding: 10px 20px 5px 10px;
-    border-width:5px;	
-    border-style:double;
-    border-radius: 5px;
-    border-color:black;
-    margin: 40px; 
-}
-
-.image-three{
-    display: inline-block;
-    position: relative;
-    width: 235px;
-    height: auto;
-    padding: 10px 20px 5px 10px;
-    border-width:5px;	
-    border-style:double;
-    border-radius: 5px;
-    border-color:black;
-    margin: 40px;   
-}
-
-.image-four{
-    display: inline-block;
-    position: relative;
-    width: 235px;
-    height: auto;
-    padding: 10px 20px 5px 10px;
-    border-width:5px;	
-    border-style:double;
-    border-radius: 5px;
-    border-color:black;
-    margin: 40px;  
-}
-
-.image-five{
-    display: inline-block;
-    position: relative;
-    width: 235px;
-    height: auto;
-    padding: 10px 20px 5px 10px;
-    border-width:5px;	
-    border-style:double;
-    border-radius: 5px;
-    border-color:black;
-    margin: 40px;  
-}
-.image-six{
-    display: inline-block;
-    position: relative;
-    width: 235px;
-    height: auto;
-    padding: 10px 20px 5px 10px;
-    border-width:5px;	
-    border-style:double;
-    border-radius: 5px;
-    border-color:black;
-    margin: 40px;  
-}
-.image-seven{
-    display: inline-block;
-    position: relative;
-    width: 235px;
-    height: auto;
-    padding: 10px 20px 5px 10px;
-    border-width:5px;	
-    border-style:double;
-    border-radius: 5px;
-    border-color:black;
-    margin: 40px;  
-}
-
-/*Contact*/
-
-.leaultContact{
-    position: relative;
-    width: 100%;
-    text-align: left;
-    padding-left: 70px;
-    margin-top: 200px;
-    z-index: 1;
-    -webkit-font-smoothing: antialiased;
-    text-transform: uppercase;
-    /* color: #ccc394; */
-    color: #d9d9d9;
-    text-shadow: 0 1px 2px #222;
 }
 
 .contactList{
@@ -627,6 +346,7 @@ a:hover{
     width: 100%;
     text-align: center;
     z-index: 1;
+        margin-top: 185px;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
     color: #d9d9d9;
@@ -800,33 +520,10 @@ h3{
   .containerLeault{
       margin-top: 0;
   }
-  .leaultContact{
-      margin-top: 245px;
-  }
   .violins_content{
       margin-top: 0;
   }
-  .semiContent{
-      width:95%;
-      left: 0;
-      text-align: center;
-  }
-  .standardContent{
-      width:95%;
-      left: 0;
-      text-align: center;
-  }
-  .gypsyContent{
-      width:95%;
-      left: 0;
-      text-align: center;
-  }
-  .kikiContent{
-      width:95%;
-      left: 0;
-      text-align: center;
-  }
-  .kantorContent{
+  .content{
       width:95%;
       left: 0;
       text-align: center;
@@ -866,3 +563,69 @@ h3{
             margin-left: 0;
         }
     }
+
+.myImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+
+.myModal{
+    display: block;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 8%;
+    top: 15%;
+    width: 75%;
+    height: 75%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+
+.modal-content {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    max-height: 90%;
+}
+
+.modal-content {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    cursor: pointer;
+}
+
