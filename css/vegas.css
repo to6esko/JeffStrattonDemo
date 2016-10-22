@@ -59,7 +59,7 @@ body .vegas-container {
 }
 
 body.vegas-container {
-    position: fixed;
+    position: static;
     z-index: -2;
 }
 
