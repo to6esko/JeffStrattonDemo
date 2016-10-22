@@ -516,6 +516,7 @@ position: fixed;
         display: initial;
     }
     .containerLeault{
+        position: absolute;
         margin-top: 250px;
     }
     .contacktLeault {
@@ -566,6 +567,10 @@ position: fixed;
     .galleryImages{
         margin-left: 0;
     }
+    .containerLeault {
+    position: absolute;
+    margin-top: 250px;
+}
     .contacktLeault {
         position: absolute;
     }
