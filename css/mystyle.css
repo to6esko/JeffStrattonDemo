@@ -564,13 +564,14 @@ position: fixed;
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
+    
     .galleryImages{
         margin-left: 0;
     }
     .containerLeault {
-    position: absolute;
-    margin-top: 250px;
-}
+        position: absolute;
+        margin-top: 250px;
+    }
     .contacktLeault {
         position: absolute;
     }
@@ -647,4 +648,3 @@ position: fixed;
     color: #bbb;
     cursor: pointer;
 }
-
