@@ -11,10 +11,15 @@ body{
     -webkit-font-smoothing: antialiased;
     color: #d9d9d9;
     -webkit-tap-highlight-color: transparent;
-    font-size: 1.5em;
+    font-size: 1.5em;           
 }
 
 
+ *, :after, :before {
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+}
 /*SlideShow*/
 
 .slideShow span {
@@ -308,13 +313,14 @@ position: fixed;
     position: absolute;
     z-index: 1;
     width: 100%;
-    margin: 180px 5% 0 5%;
+    margin-top:180px;
     -webkit-font-smoothing: antialiased;
     /*color: #ccc394;*/
     color: #d9d9d9; 
     font-weight: 400;
     text-shadow: 0 1px 2px #222;
     float: left;
+    text-align: center;
 }
 
 .galleryImages img{
@@ -329,8 +335,7 @@ position: fixed;
     display: inline-block;
     position: relative;
     width: 235px;
-    height: 475px;
-    padding: 10px 20px 5px 10px;
+    padding: 10px 10px 5px 10px;
     border-width:5px;	
     border-style:double;
     border-radius: 5px;
@@ -371,7 +376,7 @@ position: fixed;
     text-align: left;
     position: absolute;
     margin-top: 40px;
-    margin-left: 33%;
+    padding-left: 33%;
     line-height: 10px;
 }
 .social h3{
@@ -401,7 +406,7 @@ position: fixed;
     position: absolute;
     padding-right: 35px;
     margin-top: -205px;
-    margin-left: 5%;
+    padding-left: 17%;
     text-align: left;
 }
 .links h3{
@@ -416,9 +421,7 @@ position: fixed;
 .dealers{
     display: inline-block;
     position: absolute;
-    padding-right: 35px;
     margin-top: -205px;
-    margin-left: 25%;
     text-align: left;
 }
 .dealers h3{
@@ -466,9 +469,6 @@ position: fixed;
 
 
 @media only screen and (max-width : 992px) {
-    .links{
-        margin-left: 15%;
-    }
     .dealers{
         display: block;
         margin-top: 31px;
@@ -478,12 +478,15 @@ position: fixed;
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    body{
+        font-size: 1.5em;
+    }
     .price2{
         display: block;
     }
     .contactList{
         display: block;
-        margin-left: 15%;
+        padding-left: 15%;
     }
     .contact{
         display: block;
@@ -491,10 +494,11 @@ position: fixed;
     .social{
         display: block;
         margin-top: 20px;
+        padding-left: 25%;                
     }
     .links{
         display: block;
-        margin-left: 33%;
+        padding-left: 25%;
         margin-top: 195px;
     }
     .dealers{
@@ -507,7 +511,7 @@ position: fixed;
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
     h1{
-        display: table-caption;
+        display: inline-block;
     }
     h3{
         display: initial;
@@ -532,14 +536,14 @@ position: fixed;
     }
     .contacts{
         margin-top: 140px;
-        margin-left: -50%;
+        margin-left: -36%;
     }
     .social{
-        margin-left: 0;
+        padding-left: 7%;
         margin-top: 380px;
     }
     .links{
-        margin-left: 0;
+        padding-left: 8%;
         margin-top: 580px;
     }
     .links p{
@@ -547,7 +551,7 @@ position: fixed;
         line-height: 10px;
     }
     .dealers{
-        margin-left: 0;
+        padding-left: 14%;
         margin-top: 830px;
     }
     .dealers p{
