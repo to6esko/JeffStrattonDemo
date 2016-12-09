@@ -11,7 +11,7 @@ body{
     -webkit-font-smoothing: antialiased;
     color: #d9d9d9;
     -webkit-tap-highlight-color: transparent;
-    font-size: 20px;           
+    font-size: 1.5em;           
 }
 
 
@@ -135,7 +135,6 @@ img{
     overflow: hidden;
 }
 .container {
-    position: fixed;
     width: 100%;
     z-index: 1;
     /*color: #ccc394;*/
@@ -145,7 +144,7 @@ img{
     
 }
 .containerLeault{
-    position: fixed;
+    position: absolute;
     width: 100%;
     text-align: left;
     padding-left: 70px;
@@ -159,7 +158,7 @@ img{
 }
 .home_title{
     clear: both;
-   position: relative;
+   position: absolute;
    text-align: left;
    padding-left: 50px;
    width: 100%;
@@ -216,7 +215,8 @@ a:hover{
 .content{
     position: relative;
     left: 5%;
-    width: 50%;
+    width: 55%;
+    margin-top:200px;
     text-align: left;
     z-index: 1;
     /* color: #ccc394; */
@@ -256,7 +256,7 @@ a:hover{
 .galleryHome h3{
    position: relative;
    margin-left: 9%;
-   margin-top: -20px;
+   margin-top: 145px;
 }
 
 .gallery{
@@ -274,7 +274,7 @@ a:hover{
 
 /*Contact*/
 .contactHome{
-    position: relative;
+    position: absolute;
     width: 100%;
     z-index: 1;
     /* color: #ccc394; */
@@ -283,11 +283,11 @@ a:hover{
     text-shadow: 0 1px 2px #222;
 }
 .contacktLeault{
-position: fixed;
+position: absolute;
     width: 100%;
     text-align: left;
     padding-left: 70px;
-    margin-top: -15px;
+    margin-top: 165px;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     text-transform: uppercase;
@@ -361,7 +361,6 @@ position: fixed;
     position: absolute;
     line-height: 5px;
     margin-left: -17%;
-    margin-top: -193px;
 }
 .contacts h3{
     text-transform: uppercase;
@@ -375,7 +374,7 @@ position: fixed;
 .social{
     text-align: left;
     position: absolute;
-    margin-top: 40px;
+    margin-top: 245px;
     margin-left: 33%;
     line-height: 10px;
 }
@@ -405,8 +404,8 @@ position: fixed;
     display: inline-block;
     position: absolute;
     padding-right: 35px;
-    margin-top: -205px;
-    padding-left: 17%;
+    padding-left: 4%;
+    margin-top:-11px;
     text-align: left;
 }
 .links h3{
@@ -421,8 +420,9 @@ position: fixed;
 .dealers{
     display: inline-block;
     position: absolute;
-    margin-top: -205px;
     text-align: left;
+    padding-left: 20%;
+    margin-top:-11px;
 }
 .dealers h3{
     text-transform: uppercase;
@@ -438,10 +438,7 @@ position: fixed;
 
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
 
-@media screen and (min-width: 1024px){
-   body{
-       font-size: 25px;
-   }
+@media screen and (max-width: 1024px){
     h1{
         font-size: 3em;
     }
@@ -473,50 +470,57 @@ position: fixed;
 @media only screen and (max-width : 992px) {
     .dealers{
         display: block;
-        margin-top: 31px;
-        margin-left: 65%;
+        margin-left: 50%;
     }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-    body{
-        font-size: 1.5em;
-    }
     .price2{
         display: block;
     }
     .contactList{
-        display: block;
         padding-left: 15%;
     }
-    .contact{
-        display: block;
-    }
     .social{
-        display: block;
-        margin-top: 20px;
         margin-left: 25%;                
     }
     .links{
-        display: block;
-        padding-left: 25%;
-        margin-top: 195px;
+        margin-left: 12%;
     }
     .dealers{
-        display: block;
-        margin-left: -5%;
-        margin-top: 195px;
+        margin-left: 38%;
+        margin-top: 237px;
     }
 }
 
+
+/* Extra Small Devices, iPhones 5*/ 
+@media only screen and (max-width : 580px){
+    .galleryHome h3{
+        margin-top: 0;
+    }
+ .contacts{
+        margin-top: -9px;
+        margin-left: -4%;
+ }
+ .social{
+        margin-left: 38%;
+        margin-top: 230px;
+    }
+    .links{
+        margin-left: -47%;
+        margin-top: 370px;
+    }
+    .dealers{
+        margin-left: 18%;
+        margin-top: 410px;
+    }
+}
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
     h1{
         display: inline-block;
-    }
-    h3{
-        display: initial;
     }
     .containerLeault{
         position: absolute;
@@ -524,37 +528,38 @@ position: fixed;
     }
     .contacktLeault {
         position: absolute;
+        margin-top: 250px;
     }
     .violins_content{
         margin-top: 0;
     }
     .content{
         width:95%;
-        left: 0;
-        text-align: center;
+        left: 10px;
+        margin-top:270px;
     }
     .galleryImages{
         margin-top: 290px;
     }
     .contacts{
-        margin-top: 140px;
+        margin-top: 385px;
         margin-left: -36%;
     }
     .social{
-        margin-left: 7%;
-        margin-top: 380px;
+        margin-left: 6%;
+        margin-top: 600px;
     }
     .links{
-        padding-left: 7%;
-        margin-top: 580px;
+        margin-left: -40%;
+        margin-top: 790px;
     }
     .links p{
         margin-top: 15px;
         line-height: 10px;
     }
     .dealers{
-        padding-left: 12%;
-        margin-top: 830px;
+        margin-left: -14%;
+        margin-top: 1015px;
     }
     .dealers p{
         margin-top: 15px;
@@ -582,16 +587,16 @@ position: fixed;
         line-height: 20px;
     }
     .contacts{
-        padding-left: 6%;
+        padding-left: 2%;
     }
     .social{
-        padding-left: 6%;
+        padding-left: 2%;
     }
     .links{
-        padding-left: 13%;
+        padding-left: 5%;
     }
     .dealers{
-        padding-left: 19%;
+        padding-left: 20%;
     }
 }
 
