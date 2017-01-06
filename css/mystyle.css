@@ -256,7 +256,7 @@ a:hover{
 .galleryHome h3{
    position: relative;
    margin-left: 9%;
-   margin-top: 145px;
+   margin-top: 165px;
 }
 
 .gallery{
@@ -404,7 +404,7 @@ position: absolute;
     display: inline-block;
     position: absolute;
     padding-right: 35px;
-    padding-left: 4%;
+    padding-left: 30%;
     margin-top:-11px;
     text-align: left;
 }
@@ -421,7 +421,7 @@ position: absolute;
     display: inline-block;
     position: absolute;
     text-align: left;
-    padding-left: 20%;
+    padding-left: 7%;
     margin-top:-11px;
 }
 .dealers h3{
@@ -436,41 +436,18 @@ position: absolute;
 }
 
 
-/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
-
-@media screen and (max-width: 1024px){
-    h1{
-        font-size: 3em;
-    }
-    h3{
-        font-size: 1em;
-    }
-    .name{
-        font-size: 0.8em;
-    }
-    .text{
-        font-size: 1.1em;
-    }
-    .text p{
-        font-size: 0.7em;
-    }
-    .price{
-        font-size: 1.3em;
-    }
-    .price1{
-        font-size: 1.3em;
-    }
-    .violins_content{
-        font-size: 0.6em;
-    }
-}
-
 
 
 @media only screen and (max-width : 992px) {
+    body{
+        font-size:1.2em;
+    }
     .dealers{
         display: block;
         margin-left: 50%;
+    }
+    .content{
+        margin-top: 170px;
     }
 }
 
@@ -483,52 +460,58 @@ position: absolute;
         padding-left: 15%;
     }
     .social{
-        margin-left: 25%;                
+        margin-left: 26%;                
     }
     .links{
-        margin-left: 12%;
+        margin-left: -15%;
     }
     .dealers{
-        margin-left: 38%;
+        margin-left: 50%;
         margin-top: 237px;
     }
 }
 
 
 /* Extra Small Devices, iPhones 5*/ 
-@media only screen and (max-width : 580px){
-    .galleryHome h3{
-        margin-top: 0;
+@media only screen and (max-width : 568px) {
+    body{
+        font-size: 1.2em;
     }
- .contacts{
+    .content{
+        margin-top:155px;
+    }
+
+    .contacts{
         margin-top: -9px;
         margin-left: -4%;
- }
- .social{
+    }
+    .social{
         margin-left: 38%;
         margin-top: 230px;
     }
     .links{
-        margin-left: -47%;
-        margin-top: 370px;
+        margin-left: -73%;
+        margin-top: 380px;
     }
     .dealers{
-        margin-left: 18%;
+        margin-left: 32%;
         margin-top: 410px;
     }
 }
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
+    body{
+        font-size: 1.2em;
+    }
     h1{
         display: inline-block;
     }
     .containerLeault{
         position: absolute;
-        margin-top: 250px;
+        margin-top: 200px;
     }
     .contacktLeault {
         position: absolute;
-        margin-top: 250px;
     }
     .violins_content{
         margin-top: 0;
@@ -536,30 +519,30 @@ position: absolute;
     .content{
         width:95%;
         left: 10px;
-        margin-top:270px;
+        margin-top:205px;
     }
     .galleryImages{
         margin-top: 290px;
     }
     .contacts{
-        margin-top: 385px;
+        margin-top: 315px;
         margin-left: -36%;
     }
     .social{
         margin-left: 6%;
-        margin-top: 600px;
+        margin-top: 520px;
     }
     .links{
-        margin-left: -40%;
-        margin-top: 790px;
+        margin-left: -65%;
+        margin-top: 700px;
     }
     .links p{
         margin-top: 15px;
         line-height: 10px;
     }
     .dealers{
-        margin-left: -14%;
-        margin-top: 1015px;
+        margin-left: 0%;
+        margin-top: 925px;
     }
     .dealers p{
         margin-top: 15px;
@@ -578,7 +561,6 @@ position: absolute;
     }
     .containerLeault {
         position: absolute;
-        margin-top: 250px;
     }
     .contacktLeault {
         position: absolute;
@@ -592,11 +574,8 @@ position: absolute;
     .social{
         padding-left: 2%;
     }
-    .links{
-        padding-left: 5%;
-    }
     .dealers{
-        padding-left: 20%;
+        padding-left: 8%;
     }
 }
 
