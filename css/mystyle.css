@@ -3,6 +3,10 @@ html,body{
     padding:0;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 body{
     width: 100%;
     height: 100%;
@@ -11,7 +15,8 @@ body{
     -webkit-font-smoothing: antialiased;
     color: #d9d9d9;
     -webkit-tap-highlight-color: transparent;
-    font-size: 1.5em;      
+    font-size: 1.5em;
+    
 }
 
 
@@ -20,16 +25,16 @@ body{
  -webkit-box-sizing: border-box;
  box-sizing: border-box;
 }
-/*SlideShow*/
 
-.slideShow span {
+/*SlideShow*/
+.slideShow span{
+    position: fixed;
     width: 100%;
     height: 100%;
-    position: absolute;
     top: 0px;
     left: 0px;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: center;
     background-repeat: no-repeat;
     opacity:0;
     z-index: 1;
@@ -71,7 +76,7 @@ body{
 
 .slideShow::after{
     content: '';
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0px;
